@@ -1,0 +1,244 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+input[type='file'] {
+    max-width: 100%;
+}
+
+body {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    background-color: #F1F1F1;
+}
+
+.header {
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 45px;
+    font-weight: 450;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.main-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.main-img>img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.main-name {
+    padding-top: 20px;
+    line-height: 1.3;
+    font-size: 45px;
+}
+
+.main-name>p {
+    font-size: 16px;
+    max-width: 500px;
+    line-height: 1.7;
+    padding-top: 15px;
+}
+
+.skills-inner h2,
+.education-inner h2,
+.language-inner h2,
+.footer-inner h2,
+.code-inner h2 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.skills-lists,
+.language-lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.skills-lists li,
+.language-lists li {
+    position: relative;
+    padding-top: 10px;
+}
+
+.skills-lists li::after,
+.language-lists li::after {
+    content: "";
+    display: inline-block;
+    top: 0;
+    position: absolute;
+    width: 25px;
+    height: 5px;
+    left: 0;
+    background-color: #000;
+}
+
+.education,
+.language {
+    padding-top: 30px;
+}
+
+.education-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 20px;
+    border-bottom: 5px solid #000;
+    padding-bottom: 10px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-lists {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.footer-lists img {
+    width: 150px;
+    height: 150px;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: block;
+    white-space: pre;
+    border-radius: 6px;
+}
